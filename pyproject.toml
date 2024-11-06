@@ -22,8 +22,22 @@ keywords = [
 python = ">=3.11, <3.12"
 python_dotenv = "^1.0.1"
 
+# Llama dependencies
+llama_models = ">=0.0.49"
+PyYAML = "^6.0.2"
+jinja2 = "*"
+tiktoken = ">=0.8.0"
+pydantic = "^2.9.2"
+Pillow = "*"
+torch = "^2.5.1"
+fairscale = ">=0.4.13"
+fire = ">=0.7.0"
+
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.3"
+
+[tool.poetry.group.dev.dependencies]
+llama_stack = ">=0.0.49"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
