@@ -38,6 +38,7 @@ pytest = "^8.3.3"
 
 [tool.poetry.group.dev.dependencies]
 llama_stack = ">=0.0.49"
+jupyterlab = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
