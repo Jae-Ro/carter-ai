@@ -1,7 +1,6 @@
 # carter-ai
 Your AI Coach Carter for Technical Interviews
 
-
 ## Developer Quickstart
 1.  Create a virtual python environment
     ```bash
@@ -12,7 +11,18 @@ Your AI Coach Carter for Technical Interviews
     ```bash
     $ pip install poetry
     ```
-3.  Instal necessary dependencies
+3.  Install dependencies
     ```bash
-    $ poetry  -e .
+    $ poetry install
     ```
+4. [Download Pre-trained LLMs](#Download-Pre-trained-LLMs)
+
+5. Run Example Scripts
+    ```bash
+    $  torchrun scripts/example_chat_completion.py </path/to/.llama/checkpoints/MODEL-ID>
+    ```
+
+## Download Pre-trained LLMs
+See [Meta Llama Download Instrcutions](https://github.com/meta-llama/llama-models/tree/main?tab=readme-ov-file#download)
+
+## 
