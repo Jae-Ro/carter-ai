@@ -32,6 +32,8 @@ Pillow = "*"
 torch = "^2.5.1"
 fairscale = ">=0.4.13"
 fire = ">=0.7.0"
+# hugging face
+transformers = "^4.46.2"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^8.3.3"
