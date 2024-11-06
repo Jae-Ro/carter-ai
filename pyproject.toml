@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "carter-ai"
+version = "0.0.1"
+description = "Your AI Coach Carter for Technical Interviews"
+authors = ["Jae Ro <test@test.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+license = "MIT"
+homepage = "https://github.com/Jae-Ro/carter-ai"
+repository = "https://github.com/Jae-Ro/carter-ai"
+documentation = "https://github.com/Jae-Ro/carter-ai/docs"
+keywords = [
+    "LLM", 
+    "Large Language Model", 
+    "Agentic AI", 
+    "Generative AI", 
+    "Assistant", 
+    "Technical Interview"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.12"
+python_dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
