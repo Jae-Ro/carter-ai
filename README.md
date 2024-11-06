@@ -24,5 +24,3 @@ Your AI Coach Carter for Technical Interviews
 
 ## Download Pre-trained LLMs
 See [Meta Llama Download Instrcutions](https://github.com/meta-llama/llama-models/tree/main?tab=readme-ov-file#download)
-
-## 
