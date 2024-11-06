@@ -4,7 +4,7 @@ version = "0.0.1"
 description = "Your AI Coach Carter for Technical Interviews"
 authors = ["Jae Ro <test@test.com>"]
 readme = "README.md"
-packages = [{include = "src"}]
+packages = [{include = "carter_ai", from = "src"}]
 license = "MIT"
 homepage = "https://github.com/Jae-Ro/carter-ai"
 repository = "https://github.com/Jae-Ro/carter-ai"

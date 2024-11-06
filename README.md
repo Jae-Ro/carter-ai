@@ -6,6 +6,7 @@ Your AI Coach Carter for Technical Interviews
 1.  Create a virtual python environment
     ```bash
     $ conda create -n venv-carter python=3.11
+    $ conda activate venv-carter
     ```
 2.  Install `poetry`
     ```bash
@@ -13,5 +14,5 @@ Your AI Coach Carter for Technical Interviews
     ```
 3.  Instal necessary dependencies
     ```bash
-    $ poetry install
+    $ poetry  -e .
     ```
