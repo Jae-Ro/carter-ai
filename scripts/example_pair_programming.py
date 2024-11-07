@@ -218,9 +218,7 @@ def run(
         
         if "stop" in user_query.lower() or "exit()" in user_query.lower(): quit()
         convo_summary = summarize_conversation(context_li, max_length=1000, generator=generator)
-        if verbose: 
-            # print(f"\nConext List: {context_li}")
-            print(f"\nConversation History Summary:\n\t{convo_summary}")
+        if verbose: print(f"\nConversation History Summary:\n\t{convo_summary}")
         dialog = [UserMessage(content=user_query, context=convo_summary), SystemMessage(content=system_guidance)]
         out_msg = simple_question_answer(generator, dialog)
 
