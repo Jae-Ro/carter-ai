@@ -163,7 +163,7 @@ cython_debug/
 
 
 data/*
-!data/audio-sample.wav
+!data/sample_*.wav
 
 # temporary
 poetry.lock
